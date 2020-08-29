@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Gotham;
+    /*src: url(../fonts/Gotham-XLight.otf);*/
+    src: url(Gotham-XLight.otf)
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7ECEF;
+    flex-direction: column;
+}
+
+#todo {
+    color: #272932;
+    font-family: Gotham;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
